@@ -1,7 +1,16 @@
 <script>
-	import Counter from './counter.svelte'
+	// import Counter from "./Counter.svelte";
+	import Input from "./Input.svelte";
+	// const commonProps = { maxCounter: 5 };
 </script>
 
-<Counter initialCounter={2} />
-<Counter initialCounter={8} />
-<Counter initialCounter={20} />
+<h1>Search Movies 🍿</h1>
+<Input />
+
+<style>
+	h1 {
+		font-size: 32px;
+		margin: 0;
+		text-align: center;
+	}
+</style>
